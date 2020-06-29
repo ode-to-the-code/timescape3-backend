@@ -7,5 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 jim = User.create(name: "jim")
+tess = User.create(name: "tess")
+amina = User.create(name: "amina")
 
-Event.create(title: "start of semester", description: "when I got to school", startdate:20071119, user_id: jim.id)
+
+
+Event.create(name: "start of semester", description: "when I got to school", startdate:20071119, user_id: jim.id)
